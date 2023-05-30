@@ -1,0 +1,88 @@
+﻿<Window x:Class="WPF_COURSE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_COURSE" 
+        xmlns:vm="clr-namespace:WPF_COURSE.Views"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Padding="0"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        MouseDown="Window_MouseOver"
+        Title="MainWindow" 
+        Height="700" 
+        Width="900">
+
+
+    <Border
+        BorderThickness="0"
+        >
+        <Border.Background>
+            <ImageBrush 
+                ImageSource="/Images/background.jpg"/>
+        </Border.Background>
+        
+        <Border
+            Opacity="0.95"
+            BorderThickness="0">
+            
+
+            <Border.Background>
+                <LinearGradientBrush
+                    StartPoint="0,1"
+                    EndPoint="1,0"
+                    Opacity="0.6">
+                    <GradientStop 
+                        Color="#040321" Offset="0"/>
+                    <GradientStop 
+                        Color="#000" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                
+                <Grid
+                    Background="#111"
+                    Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="25"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock 
+                        Grid.Column="0"
+                        VerticalAlignment="Center"
+                        Foreground="White"
+                        FontSize="24"
+                        Margin="20,0,0,0"
+                        Text="Employee Management System"/>
+                    <Image Grid.Column="1" Margin="2" Source="/Images/minus.png" MouseLeftButtonDown="MinimizeButton_MouseLeftButtonDown"/>
+                    <Image Grid.Column="2" Margin="2" Source="/Images/remove.png" MouseLeftButtonDown="CloseButton_MouseLeftButtonDown"/>
+
+                </Grid>
+                
+                
+                
+                <Image 
+                    Margin="0 10"
+                    Grid.Row="1" 
+                    Source="/Images/boss.png"/>
+                <vm:EmployeeView Grid.Row="2"></vm:EmployeeView>
+            </Grid>
+
+        </Border>
+    </Border>
+
+
+</Window>
