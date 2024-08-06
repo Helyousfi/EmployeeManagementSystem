@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hamza\\Documents\\Programming\\MVVM-WPF-C#\\WPF_COURSE\\WPF_COURSE\\WPF_COURSE.csproj",
+      "projectUniqueName": "C:\\Users\\hamza\\Documents\\Employee Mangement\\EmployeeManagementSystem\\WPF_COURSE\\WPF_COURSE\\WPF_COURSE.csproj",
       "projectName": "WPF_COURSE",
-      "projectPath": "C:\\Users\\hamza\\Documents\\Programming\\MVVM-WPF-C#\\WPF_COURSE\\WPF_COURSE\\WPF_COURSE.csproj",
+      "projectPath": "C:\\Users\\hamza\\Documents\\Employee Mangement\\EmployeeManagementSystem\\WPF_COURSE\\WPF_COURSE\\WPF_COURSE.csproj",
       "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hamza\\Documents\\Programming\\MVVM-WPF-C#\\WPF_COURSE\\WPF_COURSE\\obj\\",
+      "outputPath": "C:\\Users\\hamza\\Documents\\Employee Mangement\\EmployeeManagementSystem\\WPF_COURSE\\WPF_COURSE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

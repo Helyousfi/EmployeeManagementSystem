@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vfWp2lh67ZrdXSgwcVDn9ftjmfvvodUB/FyREU5TfXajJtNTu9vMwvZ+lh9Vhgp+AULSY4WqG2XgEzeBdUBGKw==",
+  "dgSpecHash": "KsgXkrNKWbAYBJAY8f8gfg7Liks3+E0iEAh31NvTjQvYAee4ADVgPz3UwIVDMU8N/H128XNRJK0Unk9eOHm1FQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamza\\Documents\\Programming\\MVVM-WPF-C#\\WPF_COURSE\\WPF_COURSE\\WPF_COURSE.csproj",
+  "projectFilePath": "C:\\Users\\hamza\\Documents\\Employee Mangement\\EmployeeManagementSystem\\WPF_COURSE\\WPF_COURSE\\WPF_COURSE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
